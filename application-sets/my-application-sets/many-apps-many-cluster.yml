@@ -12,7 +12,7 @@ spec:
               repoURL: https://github.com/karapet-andreasyan/gitops-level-2.git
               revision: HEAD
               directories:
-                - path: ./application-sets/example-apps/*
+                - path: application-sets/example-apps/*
           # cluster generator, 'child' #2
           - clusters: {}
   template:
