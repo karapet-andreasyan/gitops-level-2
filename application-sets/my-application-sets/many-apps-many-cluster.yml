@@ -9,7 +9,7 @@ spec:
         generators:
           # git generator, 'child' #1
           - git:
-              repoURL: https://github.com/argoproj/argo-cd.git
+              repoURL: https://github.com/karapet-andreasyan/gitops-level-2.git
               revision: HEAD
               directories:
                 - path: applicationset/examples/matrix/cluster-addons/*
